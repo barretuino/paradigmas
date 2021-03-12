@@ -1,0 +1,20 @@
+Notas de Aula 26/02/2021
+- Paradigmas mais comuns
+	- POO - Paradigma Orientado a Objetos
+	- PE - Paradigma Estruturado
+	- PF - Paradigma Funcional
+	* POA - Paradigma Orientado a Aspectos
+
+- GAP Semântico: Um dos problemas mais severos na Computação
+  - Falha de entendimento entre o que usuário pede e o analista
+  compreende.
+	
+- Estrutura Compilada x Interpretada
+
+- Tanto o POO quanto a PE --> Compiladas
+
+- Linguagem é utilizada para a transcrição dos comandos
+- Compilador faz a migração do que é compreensivo pelo humano
+para o que é compreensivo pela máquina
+
+	
