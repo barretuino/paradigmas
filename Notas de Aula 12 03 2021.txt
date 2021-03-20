@@ -1,0 +1,54 @@
+Notas de Aulas 12.03.2021
+
+- Linguagem interpreta x compilada
+
+- IDE - Interface de Desenvolvimento e Engenharia
+	- Eclipse
+	- DevCpp
+	- CodeBlock
+	- VSCode
+	- Visual Studio
+	- Borland Delphi
+	- etc....
+
+	java -version --> devolver a versão do java que está instalada
+- IDE Eclipse
+- Java
+
+- Análise Léxica - Procurar no vocabularios as expressões que estão
+  sendo informadas. Basicamente ver se as palavras chaves usadas,
+  existem na linguagem.
+
+- Análise Sintática - estamos analisando a gramatica, a escrita dos 
+  comandos utilizando o vocabulario (as palavras chaves da linguagem)
+  concluído o processo de análise sintática, o resultado é o código
+  transcrito para a linguagem alvo (código máquina). Remete ao significa.
+
+- Análise Semântica - estamos validando o significado dos comandos.
+  Como os algoritmos, não podemos ter palavras com ambiguidade de 
+  significado.
+  
+
+   int consulta = 0; // declarando um variável 
+   int consulta;
+   int consulta[];
+   
+   consulta; // invocação de uma variável
+   
+   int consulta(){} // declaração de uma função ou método
+   
+   consulta();//invocação de uma função ou método
+   
+   class consulta{} // declaração de uma classe
+   
+   new consulta();
+
+
+
+
+
+
+
+
+
+
