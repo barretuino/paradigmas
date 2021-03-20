@@ -1,0 +1,57 @@
+Notas de Aula de 19 03 2021
+
+- Modelagem Conceitual: compreendo caracteristicas que existem na minha
+análise do problema real e começo a abstrair, por meio de levantamento
+de caracteristicas. (propriedades como por exemplo informações)
+
+	Livro: 
+		Atributos:
+	código, titulo, autor, editora, edição, ano publicação,
+	data de aquisição, numero de paginas, cor, dimensão, assunto .......
+		Ações (Métodos)
+	comprar, reservar, devolver, excluir, alterar e pesquisar
+	
+	Reserva: data, livro, leitor, prazo
+	
+	Leitor: Reservar Livro
+	Atendente: papel de usuário
+
+- Ao desenvolvermos um Diagrama de classes, estamos objetivando descrever
+'o que precisa ser feito'
+- Ao programarmos em uma linguagem, como Java, então estamos descrevendo
+'o como deve ser feito'
+
+- Gap Semântico: é um problema de compreensão do que o usuário pede e 
+o que o analista compreende.
+
+- Métodos de getters e setters, basicamente são para retornar o valor
+e definir o valor. Exemplo para um valor de preco:
+
+	private double preco;
+	
+	//Recuperação do preço
+	public double getPreco(){
+		return preco;
+	}
+	//Atribuição do preço
+	public void setPreco(double preco){
+		this.preco = preco;
+	}
+	
+- Classes, Métodos e os Atributos (O.O.)
+	- Classes são modelos conceituais que descrevem caracteristicas a 
+	partir de modelos reais.
+	-Atributos são propriedades de uma classe.
+	-Métodos são as ações de uma classe.
+	
+
+- Método construtor é um método especial: tem o mesmo nome da classe,
+é publico e não possui retorno. Na ausência de sua implementação
+o java cria uma versão vázia apenas de inicialização de atributos
+com valores padrão.
+
+	- Herança, Polimorfismo, Interfaces e Classes Abstratas
+
+- UML - Linguagem de Modelagem Unificada
+	- Conceito
+	- Ferramentas
