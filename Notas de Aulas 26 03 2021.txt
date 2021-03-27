@@ -1,0 +1,49 @@
+Notas de Aula 26/03/2021
+
+- Conceitos Importantes da Orientação a Objetos
+	* Herança
+		- Extensão: quando uma classe extende outra classe. Exemplo
+			public class Aluno extends Pessoa{
+				....
+			}
+			herança do tipo "É um"
+		- Composição: quando a classe contém implementações de atributos
+		que são objetos de um outro tipo de classe.
+		
+	* Métodos: Conceito Polimorfismo que é implementado por meio de 
+	um técnica denominada Sobrecarga de Métodos.
+		Assinatura do método: parâmetros ou argumentos que o método
+		(estruturada é função)
+		1. Quantidade de Argumentos
+		2. Tipo dos Argumentos
+		3. Ordem dos Argumentos
+	
+
+Adendo:
+	- Classes
+	- Classes Abstratas
+	- Interfaces
+	- Enum
+	- Packages
+	
+API:
+    Software para Vendedores: Módulo de cadastro de Pedidos de Venda
+	API que recebe por exemplo, uma requisição de um sistema Android
+	enviando dados para o meu servidor (pedidos de venda) e isso
+	insere no meu sistema o pedido de venda.
+	
+	
+Operações Matemáticas
+Soma 	Arg + Arg
+Divisão Arg / Arg
+Multip	Arg * Arg
+Subtr	Arg - Arg
+
+double calcular(double arg1, double arg2)
+
+Interfaces são em Java é uma especificação de um tipo 
+(na forma de um conjunto de métodos) 
+que não define nenhuma implementação para os métodos.
+
+
+
