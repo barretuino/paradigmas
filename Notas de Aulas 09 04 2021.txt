@@ -1,0 +1,167 @@
+Notas de Aula 09/04/2021
+
+Arquivos com extensão *.java são o código fonte (src)
+Arquivos com extensão *.class são o códigos já compilados e prontos (bin)
+
+Tabela Verdade do &&
+V V = V
+V F = F
+F F = F
+F V = F
+
+Tabela verdade do ||
+V V = V
+V F = V
+F V = V
+F F = F 
+
+Tabela Verdade !
+V --> F
+F --> V
+
+*********************************************************
+Revisão para a Atividade Avaliativa de 1º Bimestre
+
+1) Introdução ao Estudo de Linguagens de Programação e aos Paradigmas Existentes. 
+	Um paradigma ele define caracteristicas que exibem como um algoritmo pode ser compreendido ou implementado. Exemplo: baseado em funções, é um paradigma estruturado. Baseado em modelagem conceitual de objetos, é um paradigma Orientado a Objetos.
+	
+	Filosofia de implementação é definido com o paradigma emprega tecnicas para a programação e concepção de softwares.
+	
+	Tipos de Linguagens e Paradigmas:
+		A) Linguagens Imperativas,
+		B) Linguagens Estruturadas: conceito de separação por funções,
+		C) Linguagens Orientadas a Objetos: baseado no conceito elementar das classes, métodos e atributos. Ter o encapsulamento que é o recurso de ocultação de dados por meio das palavras: public, private, protected e package.
+		D) Linguagens Funcionais: typeScript - base de construção é por meio do controle da transição de estados.
+		E) Linguagens Lôgicas: funções diretas executadas por de predicatos (abreviações). Exemplo
+			const materiais = [
+			  'Lápis',
+			  'Caneta',
+			  'Caderno',
+			  'Mochila'
+			];
+
+			console.log(materiais.map(materiais => materiais.length));
+			console.log(materiais.map(m => m));
+		F) Linguagens Declarativas: exemplo a linguagem SQL
+		G) Conceito de linguagens que usam funções puras, aquelas que são soltas ou que fazem uma única tarefa. Definição de variaveis é rigida.
+		H) Conceito de linguagens de funções impuras, definição de variaveis de forma flexivel: local e global.
+		
+
+2) Definição formal de Algoritmos
+	Algoritmos são sequencias ordenadas, finitas e que não exibem duplo entendimento em suas execuções para realização de uma dada tarefa.
+	
+	Não é necessário empregar linguagens de programação para elaboração ou para execução de uma algoritmo.
+	
+	Para o estudo de paradigmas de programação envolve a construção de codigos para implementar ou materializar a representação do algoritmo.
+	
+	São caracteristicas: exibir clareza, precisão e ter sequencia fixa.
+
+3) Análise sobre Linguagens de programação compiladas e interpretadas.
+	Compilação: no processo de compilação o código fonte é analisado e interpretado para geração de um código em linguagem compreensivel pela máquina. Transformar o bloco semântico (sintaxe) em baixo nível compreensível à máquina. Linguagem C, Java, Delphi....
+	
+	Interpretação: processo em que o código fonte é interpretado por um software adicional (faz a vez de compreender e interpretar) o código fonte desenvolvido. Simplesmente notações para descrever algoritmos. Linguagem HTML, CSS, JavaScript....
+
+4) Descrição formal de linguagens de programação:  análise léxica, sintática e semântica
+
+	- Linguagem de Programação - O que ela é?
+	Paradigmas de Programação pode ser definido como estilo de programação, a forma como você descreve a solução computacional de um problema.
+	
+	- Quais os atributos que uma linguagem de Programação deve exibir:
+		- Legibilidade,
+		- Capacidade de Escrita,
+		- Confiabilidade,
+		- Custo
+
+	 A) Análise Lêxica: Etapa na qual, baseado no vocabulário, é feita
+		a validação (reconhecimento) da existência desta palavra na 
+		estrutura de alfabeto.
+	
+		A análise léxica varre caractere por caractere, onde os símbolos
+		especiais (espaço em branco, símbolos de pontuação (;) e nova linha) são utilizados para estabelecer os limites das palavras. 
+
+		Durante a análise, as palavras ou lexemas são guardados na tabela 
+		de símbolos e classificados de acordo com a linguagem, palavras 
+		reservadas, comandos, variáveis e tipos básicos. 
+
+		B) Análise Sintática: Verificação de como os comandos estão sendo
+		escrito e seu a ordem atendem a regra de gramatica esperada.
+		A sintaxe trata das propriedades livres da linguagem como a 
+		verificação gramatical de programas. 
+		A semântica objetiva dar uma interpretação para a linguagem como 
+		um significado ou valor para um determinado programa. 
+		Consequentemente, a sintaxe basicamente manipula símbolos sem 
+		considerar os seus correspondentes significados.
+		Para a análise sintática, as Árvores para Linguagem são o meio pelo qual fazemos a organização e a buscas do elementos.
+		
+		C) Análise Semântica: A conversão dos comandos da linguagens de 
+		programação para a linguagem alvo (compreensivel pela máquina).	
+		Enquanto que a sintaxe cuida do modo de como a informação é 
+		transmitida (estrutura) e a semântica zela pelo significado das 
+		palavras, o léxico é responsável por verificar o acervo de palavras pertencentes a determinada linguagem. 
+		Tendo em vista que toda língua tem como característica básica
+		a mutabilidade, o léxico de um idioma não é finito.
+		Na semântica é definido como a máquina irá realizar a atividade
+		descrita pelo comando que na Lêxica e Sintática foi validada.
+		
+		* Árvores para Linguagem
+		- No estudo das Estruturas de Dados prover uma forma de organizar
+		e estruturar a busca dos dados. Conceito de Árvores Binárias.
+		Foco na Disciplina de Estruturas de Dados.
+		
+		As árvores para as linguagens de programação ordenam as possiveis
+		sequencias válidas para utilização na construção da sintaxe. Por
+		exemplo: na árvore em que iniciamos com o comando if, os galhos 
+		possiveis são o terminador, o comando else ou outro comando if.
+		
+		As árvores de derivação são subconjuntos das árvores, ou segregações que daram origem a uma nova ávore, ou nova estrutura sintaxa/semântica se olharmos pelo lado do formalismo das linguagens de programação.
+	
+5) Projeto Orientado a Objetos: Diagramas de Classes e Associações; Agregação e Composição; Diagrama de Classes – Herança; Exemplos e Exercícios de fixação
+	- Na modelagem conceitual: etapa de análise e levantamento de requitios, podemos empregar a UML - Linguagem de Modelagem Unificada.
+	Diagrama de classe: ferramenta que pertence a UML e que expressa a descrição das classes e os seus relacionamentos.
+	- Na O.O. o principio de classes é que norteia o como iremos modelar as estruturas de programação.
+	- Abstração: “Ato de separar um ou mais elementos de uma totalidade complexa (coisa, representação, fato), os quais só mentalmente podem ser separados”. Ignorar aspectos não relevantes.
+	- Encapsulamento por meio dos qualificadores de acesso: public, private, protected e package.
+	
+	Uma classe é a descrição de um tipo de objeto. Todos os objetos são instâncias de uma classe, onde a classe descreve as propriedades e comportamentos daquele objeto.
+		public class Aluno(){......}
+		
+	Objetos só podem ser instâncias de uma classe. Exemplo:
+		Aluno vinicius = new Aluno();
+
+	Atributos: representam as propriedades - caracteristicas
+	Métodos: as ações ou funções que objeto terá como capacidade de execução.
+	
+6) Introdução a Linguagem Java – Tipos de dados e Variáveis; Estruturas de condição e repetição - Exemplos e Exercícios de fixação
+
+	- Herança
+		- É um
+		- Tem um
+		
+	- Polimorfismo é capacidade de ser métodos com o mesmo nome porém com assinaturas diferentes. Exemplo
+		public double somar(double x, double y);
+		public double somar(int x, double y);
+		
+		Definem a assinatura do método:
+		1. Tipos de argumentos
+		2. Quantidade de argumentos
+		3. Ordem dos argumentos
+	
+	- Tipos Primitivos
+		- inteiros (int, short, byte, long)
+		- flutuantes (float, double)
+		- lôgico (boolean)
+		- texto (char, String*)
+	
+	- Estruturas de Fluxo de Controle
+		- if, switch e ?
+		- for, while e do..while
+	
+	- Operadores
+		- Aritméticos (+, -, *.....)
+		- Lôgicos Relacionais (&&, || e !)
+		- Lôgicos Comparação (>, <, == .....)
+		- Atribuição (=, +=, -=, /=....)
+		
+	- Qualificadores de acesso
+		- public, protected, private e package
+	
