@@ -1,0 +1,29 @@
+Notas de Aulas 30/04/2021
+
+- Classes, Métodos e Atributos
+
+Utilizar a palavra reservada this significa, que estou invocando atributos ou métodos que pertencem a classe.
+
+Métodos Construtores tem exatamente o mesmo nome classe.
+Métodos Construtores quando não são declarados, o java cria automaticamente ao compilar a classe, um método construtor vázio. Um método construtor vázio, ele simplesmente inicializa os atributos com seus valores default:
+	numericos como 0
+	texto como null
+	boolean false
+	personalizados como null
+Métodos construtores não tem retorno. Implicitamente (ou de maneira obvia) o resultado de sua execução é a materialização do novo objeto. Ou preparo do objeto para ser utilizado.
+Métodos construtores OBRIGATÓRIAMENTE precisam ser público.
+
+	- Encapsulamento: é a maneira com que estamos definindo o nível de acessibilidade que a classe, atributo ou método, tem em relação as demais classes e métodos.
+	Há uma técnica de proteção por trás, para que não seja feito acesso direto ou indevido ao que o desenvolvedor considerada que não pode ser visualizado pelo 'usuário' (devenvolvedor que irá utilizar a minha estrutura).
+		
+	- Qualificadores de Acesso: são palavras reservadas da linguagem utilizadas para determinar o nível de encapsulamento. São eles:
+		- public
+		- package
+		- protected;
+		- private;
+	
+- Instanciação: é a materialização de um objeto. Por exemplo
+	Cliente novoCliente = new Cliente(); // criando uma nova instancia
+  Um objeto criado a partir da especificação de uma classe. De forma abstratada, podemos dizer que é 'uma variável' do tipo da classe.
+
+- Introdução a construção de GUI - Interfaces Gráficas com Usuários
