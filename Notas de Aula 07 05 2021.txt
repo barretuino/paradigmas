@@ -1,0 +1,25 @@
+Notas de Aula 07/05/2021
+
+1 - Estruturas de Coleções, Mapas e Listas
+	As coleções tem por característica principal serem elásticas no que tange o número de elementos armazenados.
+	
+	O que define em uma coleção o seu tipo, é o primeiro elemento que for inserido nesta coleção.
+
+2 - Tratamento de exceções
+
+- Granularidade
+- Taxa de crescimento (Progressão de volumetria de dados)
+
+Definição formal (revisão) do que são Vetores e Matrizes
+- Vetores e Matrizes são estruturas de armazenamento, assim como
+as variáveis comuns, porém são arranjos que permitem referenciarmos
+multiplos valores.
+	- São estruturas que possuem um tipo rígido (que após declarada, não podemos mais modificar o seu tipo)
+		int vetValores[10]; //fixamos que possuem 10 elementos (0....9)
+		
+	- Indices de um vetor/matriz variam de 0 a N-1, em que N representa o número de elementos comportados pelo vetor/matriz.
+	
+	- Uma vez que definimos um array (seja um vetor ou matriz) sua maninupalação, ao percorrer, ordenar, excluir... enfim... passa ser sempre por meio do indice, de forma sequencial.
+
+- Vetores são arrays unidimensionais. Ex.: int vetValor[10];
+- Matrizes são arrays multidimensionais. Ex.: int vetNotas [5][2];
