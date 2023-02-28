@@ -1,4 +1,4 @@
-Notas de Aula 26/02/2021
+Notas de Aula 28/02/2023
 - Paradigmas mais comuns
 	- POO - Paradigma Orientado a Objetos
 	- PE - Paradigma Estruturado
