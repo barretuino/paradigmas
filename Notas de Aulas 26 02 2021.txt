@@ -1,4 +1,7 @@
 Notas de Aula 28/02/2023
+
+https://github.com/barretuino/paradigmas
+
 - Paradigmas mais comuns
 	- POO - Paradigma Orientado a Objetos
 	- PE - Paradigma Estruturado
@@ -6,15 +9,13 @@ Notas de Aula 28/02/2023
 	* POA - Paradigma Orientado a Aspectos
 
 - GAP Semântico: Um dos problemas mais severos na Computação
-  - Falha de entendimento entre o que usuário pede e o analista
-  compreende.
+  - Falha de entendimento entre o que usuário pede e o analista   compreende.
 	
 - Estrutura Compilada x Interpretada
 
 - Tanto o POO quanto a PE --> Compiladas
 
 - Linguagem é utilizada para a transcrição dos comandos
-- Compilador faz a migração do que é compreensivo pelo humano
-para o que é compreensivo pela máquina
+- Compilador faz a migração do que é compreensivo pelo humano para o que é compreensivo pela máquina.
 
-	
+	Lêxico, Sintátio e Semântico
