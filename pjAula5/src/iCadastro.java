@@ -1,15 +1,11 @@
+package pjAula5;
+
+import java.util.List;
 
 public interface iCadastro {
-	/*
-	 * CRUD
-	 * 	Create - Inserir
-	 * 	Read - Pesquisa
-	 * 	Update - Alterar
-	 * 	Delete - Excluir 
-	 */
-	public void cadatrar(Object obj);
-	public Object pesquisar(int codigo);
-	public void alterar(Object obj);
-	public boolean excluir(int codigo);
-	public String imprimir(Object obj);
+	public void incluir(Object o);
+	public Object pesquisar(int id);
+	public void atualizar(Object o);
+	public void excluir(int id);
+	public List<Object> listar();
 }
