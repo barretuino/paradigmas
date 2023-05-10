@@ -1,0 +1,74 @@
+'''
+  Exemplos de comandos em Python
+  Aula 09/05/2023
+'''
+import sys
+
+''' Declaracao de variavel '''
+numero = 10
+
+print("Hello World")
+print(numero)
+
+''' Operadores '''
+''' Aritméticos'''
+''' Atribuicao '''
+numero = numero + 4 
+print(numero)
+''' Comparacao '''
+print(numero == 10) 
+print("Paulo " + str(123))
+print(3**2)
+
+''' Relacional >, <, >=, <=, ==, !='''
+valor = 17
+print(numero == valor)
+
+''' Lógicos and, or e !'''
+print((valor % 2 == 0) or (valor < 20))
+
+if(valor > 15 and valor < 20):
+   print("Esta dentro da faixa de valor")
+else:
+   print("Valor fora da faixa")
+
+nome = input("Informe o seu nome ")
+print("Seja Bem Vindo " + nome)
+
+preco = input("Informe o preco ")
+quantidade = input("Informe a quantidade ")
+print("O total e " + str(float(preco) * float(quantidade)))
+
+#funcao de soma
+def funcComum(a, b):
+    print("Resultado " + str(a+b))
+    
+funcComum(10, 13)
+
+#funcao com retorno
+def funcRetorno(a, b):
+    return a + b
+    
+print("Resultado é {}".format(funcRetorno(10, 13)))
+print("Resultado {} + {} = {}".format(10, 13, (10 + 13)))
+
+aluno = [{"ra":88877766, "nome":"Paulo", "idade" : 25},
+         {"ra":99988877, "nome":"Sonia", "idade" : 16}]
+print(aluno)
+print(aluno[0]["ra"])
+print(aluno[0]["idade"])
+aluno[1]["time"] = "Palmeiras"
+print(aluno)
+
+n = 0
+for n in range(4):
+    print(n)
+    
+a = [1,2,3]
+print(a)
+a.append(4)
+print(a)
+a.remove(3)
+print(a)
+a.append("Paulo")
+print(a)

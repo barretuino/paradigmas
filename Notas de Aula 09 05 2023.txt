@@ -1,0 +1,43 @@
+Notas de Aula 09/05/2023
+
+Introdução ao Python
+
+Dinamicamente tipado: não exibe a necessidade você ter que declarar o tipo de uma variável;
+
+   JS - var a = 10; (int)
+   Python a = 10 (int)
+
+Em linguagem c são tipos primitivos: char, int, double, float e o void
+Em Python: inteiro, float e string
+
+O Python exibe autocasting. O Casting consiste no processo de conversão de tipos automaticamente.
+
+Operadores Aritméticos
+	+ Soma 				5+5=10
+	- Subtração			5-5=0
+	* Multiplicação		5*5=25
+	/ Divisão			5/5=1
+	% Resto ou Módulo	10%3 = 1
+	** Potência		4**2 = 16
+
+Operadores Lôgicos de comparação
+	<	Menor
+	> 	Maior
+	<= 	Menor ou igual
+	>= 	Maior ou igual
+	== 	Igualdade
+	!=  Diferente
+	
+Operador de Atribuição
+	=	Atribuição
+	+=	Soma com atribuição
+	-=	Subtração com atribuição
+	/=	Divisão com atribuição
+	*=	Multiplicação com atribuição
+	%=	Resto ou Módulo com Atribuição
+	**= Potência com atribuição
+	
+Operadores Lógicos Relacionais
+	Not 	Não
+	Or		Ou
+	And		E
